@@ -78,9 +78,56 @@ nav ul li a:hover{
     width: 100%;
 }
 .container{
-    
-    margin-right: 7%;
     display: flex;
     position: relative;
 }
+.container p{
+    padding-right: 50px;
+}
+.card{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 100px;
+}
+.menu h1{
+    font-size: 40px;
+    text-align: center;
+}
+.menu p{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.box{
+    display: flex;
+    margin: 0 10% 10% 10%;
+}
+.card{
+    width: 30%;
+    height: 100%;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.card img{
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    
+}
+footer h1{
+    color: white;
+}
+footer p{
+    color: rgb(153, 149, 149);
