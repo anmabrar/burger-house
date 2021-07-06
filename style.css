@@ -70,8 +70,10 @@ nav ul li a:hover{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover; 
+}
+.content{
+    margin-top: 5%;
 }
 .bg-2{
     height: 100%;
@@ -120,12 +122,31 @@ nav ul li a:hover{
     border-radius: 10px;
     box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.new-area{
+    display: flex;
+    margin: 5% 10% 5% 10%;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.new-area-style{
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 10px;
+}
+.new-area-style h1{
+    font-size: 4vh;
+}
+.contact-us h2{
+    font-size: 40px;
+    text-align: center;
+}
 footer{
     text-align: center;
     padding: 25px;
-    background-color: black;
-    
+    background-color: black;  
 }
+
 footer h1{
     color: white;
 }
